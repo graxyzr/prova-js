@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova de JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome">
+        <br>
+        <br>
+        <label for="cpf">CPF:</label>
+        <input type="number" id="cpf">
+        <br>
+        <br>
+        <br>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade">
+        <br>
+        <br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha">
+        <br>
+        <br>
+        <label for="confirmarSenha">Confirmar senha:</label>
+        <input type="password" id="confirmarSenha">
+        <br>
+        <br>
+        <button onclick="verificaTudo()" type="submit">Enviar</button>
+    </form>
+
+    <br>
+    <br>
+    <br>
+
+    <label for="lista">Número de Listas:</label>
+    <input type="number" id="lista" placeholder="Informe o número de listas aqui">
+    <button onclick="numLista()" id="numLista" type="button">Criar</button>
+    <ul id="listaCompras"></ul>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <button id="criarDiv">Criar Div</button>
+    <div id="container"></div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
